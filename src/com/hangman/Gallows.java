@@ -37,7 +37,7 @@ class Gallows {
                     player1BuffWriter.close();
                     break;
                 case 1:
-                    bw.seek(245);
+                    bw.seek(240);
                     bw.write("(O)".getBytes());
                     while ((line = player1BuffReader.readLine()) != null) {
                         System.out.println(line);
@@ -45,9 +45,9 @@ class Gallows {
                     player1BuffReader.close();
                     break;
                 case 2:
-                    bw.seek(294);
+                    bw.seek(288);
                     bw.write("|".getBytes());
-                    bw.seek(339);
+                    bw.seek(332);
                     bw.write("|".getBytes());
                     while ((line = player1BuffReader.readLine()) != null) {
                         System.out.println(line);
@@ -55,7 +55,7 @@ class Gallows {
                     player1BuffReader.close();
                     break;
                 case 3:
-                    bw.seek(291);
+                    bw.seek(285);
                     bw.write("//|".getBytes());
 
                     while ((line = player1BuffReader.readLine()) != null) {
@@ -65,7 +65,7 @@ class Gallows {
                     //}
                     break;
                 case 4:
-                    bw.seek(295);
+                    bw.seek(289);
                     bw.write("|\\\\".getBytes());
 
                     while ((line = player1BuffReader.readLine()) != null) {
@@ -74,7 +74,7 @@ class Gallows {
                     player1BuffReader.close();
                     break;
                 case 5:
-                    bw.seek(382);
+                    bw.seek(374);
                     bw.write("//".getBytes());
 
                     while ((line = player1BuffReader.readLine()) != null) {
@@ -83,7 +83,7 @@ class Gallows {
                     player1BuffReader.close();
                     break;
                 case 6:
-                    bw.seek(385);
+                    bw.seek(377);
                     bw.write("\\\\".getBytes());
 
                     while ((line = player1BuffReader.readLine()) != null) {
