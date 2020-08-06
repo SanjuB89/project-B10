@@ -4,9 +4,9 @@ import java.io.*;
 
 class Gallows {
     // INSTANCE VARIABLES
-    private File originalFile = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10 Hangman/src/com/hangman/txt/OriginalBluePrint.txt");
-    private File player1File = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10 Hangman/src/com/hangman/txt/Player1-file.txt");
-    private File player2File = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10 Hangman/src/com/hangman/txt/Player2-file.txt");
+    private File originalFile = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10_Hangman/src/com/hangman/txt/OriginalBluePrint.txt");
+    private File player1File = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10_Hangman/src/com/hangman/txt/Player1-file.txt");
+    private File player2File = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10_Hangman/src/com/hangman/txt/Player2-file.txt");
 
     // BUSINESS METHODS
 

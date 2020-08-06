@@ -6,7 +6,7 @@ import javax.sound.sampled.*;
 import java.io.File;
 import java.io.IOException;
 
-public class DoubleHangmanClient {
+public class HangmanClient {
 
     public static void main(String[] args) {
         Clip clip = playSound();
