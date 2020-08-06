@@ -28,7 +28,7 @@ public class DoubleHangmanClient {
             Clip audioClip = (Clip) AudioSystem.getLine(info);
 
             audioClip.open(audioInputStream);
-            //audioClip.start();
+            audioClip.start();
             result = audioClip;
 
         } catch (UnsupportedAudioFileException e) {
