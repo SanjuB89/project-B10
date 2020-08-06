@@ -28,7 +28,7 @@ public class UserPrompts {
 
     void welcome() {
         Thread thd = new Thread();
-        File file = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10 Hangman/src/com/hangman/txt/Banner.txt");
+        File file = new File("/Users/murpslaw/Code/StudentWork/IntmJ/workspace/project-B10_Hangman/src/com/hangman/txt/Banner.txt");
         try {
             int charValue = 0;
             BufferedReader reader = new BufferedReader(new FileReader(file));
